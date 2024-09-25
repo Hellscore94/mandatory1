@@ -215,5 +215,5 @@ if __name__ == '__main__':
 
     ani = animation.ArtistAnimation(fig, frames, interval=400, blit=True,
                                     repeat_delay=1000)
-    ani.save('neumannwave.gif', writer='pillow', fps=5) # This animated gif opens in a browser
+    ani.save('C:/Users/ROMEM/Desktop/Matematikk/MAT-MEK4270/mandatory1/report/neumannwave.gif', writer='pillow', fps=5) # This animated gif opens in a browser
     plt.close()
