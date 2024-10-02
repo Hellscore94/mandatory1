@@ -193,7 +193,6 @@ class Poisson2D:
         lx = Lagrangebasis(xij, x=x)
         ly = Lagrangebasis(yij, x=y)
         functione = Lagrangefunction2D(mat, lx, ly)
-        print(functione)
         return functione.subs({"x" : x_, "y" : y_})
 
 def test_convergence_poisson2d():
